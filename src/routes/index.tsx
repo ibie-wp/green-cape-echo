@@ -282,8 +282,11 @@ function Index() {
               An environmental awareness campaign
             </p>
           </div>
-          <p className="text-xs text-muted-foreground uppercase tracking-widest">
+          <p className="text-xs text-muted-foreground uppercase tracking-widest text-left md:text-right">
             © {new Date().getFullYear()} · For the Mother City
+            <span className="block mt-1 normal-case tracking-normal text-[10px] opacity-70">
+              A project by Kauthar Karlie · with help from Ibrahim Karlie
+            </span>
           </p>
         </div>
       </footer>
