@@ -1,6 +1,7 @@
 {
   "version": 2,
-  "public": true,
+  "buildCommand": "bun run build",
+  "outputDirectory": "dist/client",
   "rewrites": [
     { "source": "/(.*)", "destination": "/index.html" }
   ]
